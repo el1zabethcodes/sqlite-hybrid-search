@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# fastembed JS model cache
+local_cache/
+
+# Local databases (the engine's own artifacts, never commit data)
+*.db
+*.db-wal
+*.db-shm
+
+# Tooling / OS
+.DS_Store
+.mimosa/
